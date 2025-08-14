@@ -9,16 +9,8 @@ const More = () => {
       <div className="container">
         <h1>More Ideas:</h1>
         <div className="mo-container">
-          <img
-            className="mo-img"
-            src="https://cdn.pixabay.com/photo/2020/08/29/05/54/mountains-5526265_640.jpg"
-            alt="more"
-          />
-          <img
-            className="mo-img2"
-            src="https://cdn.pixabay.com/photo/2020/08/29/05/54/mountains-5526265_640.jpg"
-            alt="more"
-          />
+          <img className="mo-img" src="/mountains.jpg" alt="more" />
+          <img className="mo-img2" src="/mountains.jpg" alt="more" />
           <div className="mo-topics">
             <div className="mo-left">
               {moreIdeas1.map((idea, i) => (

@@ -43,7 +43,6 @@
   flex-direction: column;
   gap: 1rem;
   align-items: flex-start;
-  /* translate: -18% 0rem; */
 }
 .musrel-feature .detail > :nth-child(1) {
   font-weight: bold;

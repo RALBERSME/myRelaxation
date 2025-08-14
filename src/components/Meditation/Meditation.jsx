@@ -53,7 +53,7 @@ const Meditation = () => {
               variants={containerVariants(0.5)}
               initial="offscreen"
               whileInView="onscreen"
-              src="https://cdn.pixabay.com/photo/2016/11/17/14/00/mom-1831654_640.png"
+              src="/mom.png"
               alt="persons"
             />
           </div>

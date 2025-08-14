@@ -51,7 +51,7 @@ const SlickSlider = () => {
                 alt="mis"
                 width={100}
                 height={80}
-                src="https://cdn.pixabay.com/photo/2018/03/08/20/51/bathroom-3209837_640.png"
+                src="/bathroom.png"
               />
               <span>{comment.title}</span>
             </div>

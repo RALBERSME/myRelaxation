@@ -7,16 +7,10 @@ const Curtains = () => {
         <div className="cur-container">
           <div className="curtain">
             <div className="curtain-image curtain-left">
-              <img
-                src="https://cdn.pixabay.com/photo/2016/04/16/12/04/curtain-1332937_640.jpg"
-                alt="curtain"
-              />
+              <img src="/curtain.jpg" alt="curtain" />
             </div>
             <div className="curtain-image curtain-right">
-              <img
-                src="https://cdn.pixabay.com/photo/2016/04/16/12/04/curtain-1332937_640.jpg"
-                alt="curtain"
-              />
+              <img src="/curtain.jpg" alt="curtain" />
             </div>
 
             <video controls width="100%" height="100%" autoPlay>

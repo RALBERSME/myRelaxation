@@ -103,14 +103,6 @@ const Navbar = () => {
           >
             <span>Miscellaneous</span>
           </Link>
-
-          {/* <a
-            className="n-a2"
-            href="https://tigertabby.github.io/BeautifulWorld/"
-            target="_blank"
-          >
-            Relaxation Trip
-          </a> */}
         </div>
       </div>
     </div>

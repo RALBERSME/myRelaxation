@@ -61,7 +61,6 @@ const MuscleRelaxation = () => {
                   }}
                   className="detail"
                 >
-                  {/* <span className="des">Example {i + 1}</span> */}
                   <span className="sec-title">{feature.title}</span>
                   <span className="text">{feature.des}</span>
                 </motion.div>

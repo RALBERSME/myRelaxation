@@ -1,68 +1,50 @@
 export const HeroData = [
   {
-    // src: "hero/person1.jpg",
-
-    src: "https://cdn.pixabay.com/photo/2021/10/05/10/26/butterflies-6682363_640.jpg",
+    src: "/butterflies.jpg",
     bg: "linear-gradient(260deg,rgba(232, 189, 46, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(156, 129, 22, 1) 100%)",
     delay: 0.1,
   },
   {
-    src: "https://cdn.pixabay.com/photo/2021/07/02/14/47/great-masterwort-6381854_640.jpg",
+    src: "/greatFlower.jpg",
 
     bg: "linear-gradient(260deg,rgba(232, 189, 46, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(156, 129, 22, 1) 100%)",
     delay: 0.1,
   },
   {
-    src: "https://cdn.pixabay.com/photo/2024/12/03/08/59/ai-generated-9241642_640.jpg",
+    src: "/roses.jpg",
     bg: "linear-gradient(260deg,rgba(232, 189, 46, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(156, 129, 22, 1) 100%)",
     delay: 0.2,
-  },
-  {
-    src: "https://cdn.pixabay.com/photo/2016/04/01/09/17/comic-characters-1299262_640.png",
-    bg: "linear-gradient(260deg,rgba(46, 167, 232, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(22, 89, 156, 1) 100%)",
-    delay: 0.2,
-  },
-  {
-    src: "https://cdn.pixabay.com/photo/2016/03/31/20/20/beauty-1295692_640.png",
-    bg: "linear-gradient(260deg,rgba(46, 167, 232, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(22, 89, 156, 1) 100%)",
-    delay: 0.3,
-  },
-  {
-    src: "https://cdn.pixabay.com/photo/2016/04/01/10/29/character-1299903_640.png",
-    bg: "linear-gradient(260deg,rgba(46, 167, 232, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(22, 89, 156, 1) 100%)",
-    delay: 0.25,
   },
 ];
 
 export const features = [
   {
-    // icon: "/features/frame-0.png",
-    icon: "https://cdn.pixabay.com/photo/2023/08/07/17/48/actions-8175606_640.png",
+    icon: "/breathing.png",
     title: "Counting Breathing (e.g., 4-4-4-4)",
     des: "Even, slow breathing with visual or mental counting lowers heart rate and activates the parasympathetic nervous system.",
   },
   {
-    icon: "https://cdn.pixabay.com/photo/2013/07/12/19/00/trees-154168_640.png",
+    icon: "/trees.png",
     title: "Abdominal Breathing / Diaphragmatic Breathing",
     des: " Deep inhalation and exhalation into the abdominal cavity promotes vagal activity and relaxation of the muscles around the chest and abdomen.",
   },
   {
-    icon: "https://cdn.pixabay.com/photo/2013/07/12/17/20/leaf-152047_640.png",
+    icon: "/leaf.png",
     title: "Pursed-Lip Breathing ",
     des: "Slow exhalation through the surface of the lips increases breathing resistance and calms the nervous system.",
   },
   {
-    icon: "https://cdn.pixabay.com/photo/2025/07/31/09/38/mountain-9746534_640.png",
+    icon: "/mountainSun.png",
     title: "Square Breathing ",
     des: "Four phases of even breathing (inhale, hold, exhale, hold) strengthen attention and clarity.",
   },
   {
-    icon: "https://cdn.pixabay.com/photo/2012/04/26/19/42/honeybee-42907_640.png",
+    icon: "/honeybee.png",
     title: "4-7-8 Breathing Technique ",
     des: "Slow inhalation, breath retention, slow exhalation; supports sleepiness and tension reduction.",
   },
   {
-    icon: "https://cdn.pixabay.com/photo/2015/12/16/19/43/fir-1096466_640.png",
+    icon: "/tanne.png",
     title: "Alternate Nostril Breathing (Nadi Shodhana)",
     des: "Alternate breathing through the nostrils balances the sympathetic and parasympathetic nervous systems and promotes mental calm.",
   },
@@ -70,18 +52,17 @@ export const features = [
 
 export const muscFeatures = [
   {
-    // icon: "/OurDiff/Frame-0.png",
-    icon: "https://cdn.pixabay.com/photo/2012/04/05/01/49/pull-25788_640.png",
+    icon: "/pull.png",
     title: "Progressive muscle relaxation",
     des: "By systematically tensing and then releasing muscle groups, body tension is visibly reduced and the ability to relax is increased.",
   },
   {
-    icon: "https://cdn.pixabay.com/photo/2013/07/13/11/48/foot-158726_640.png",
+    icon: "/foot.png",
     title: "Jacobson's contraction relaxation",
     des: "argeted tension is created and released to train body awareness and promote deep relaxation.",
   },
   {
-    icon: "https://cdn.pixabay.com/photo/2013/07/12/12/46/arnold-schwarzenegger-146227_640.png",
+    icon: "/athlet.png",
     title: "Body scan",
     des: "Mindful perception of tension throughout the body and conscious relaxation of individual regions to achieve overall coherence and calm.",
   },
@@ -89,18 +70,17 @@ export const muscFeatures = [
 
 export const muscleRelFeatures = [
   {
-    // icon: "/howItWorks/Frame-0.png",
-    icon: "https://cdn.pixabay.com/photo/2024/07/29/21/58/ai-generated-8930737_640.jpg",
+    icon: "/massage.jpg",
     title: "Massage",
     des: "Releases muscle tension, reduces stress hormones, and promotes deep relaxation throughout the body.",
   },
   {
-    icon: "https://cdn.pixabay.com/photo/2024/05/29/17/05/ice-8796720_640.png",
+    icon: "/ice.png",
     title: "Sauna",
     des: "Promotes muscle relaxation and sweats out stored toxins, increasing well-being and circulation.",
   },
   {
-    icon: "https://cdn.pixabay.com/photo/2024/06/01/19/09/ai-generated-8802947_640.png",
+    icon: "/bathing.png",
     title: "Warm bath",
     des: "Relaxes tense muscles, calms the nervous system, and facilitates restful sleep.",
   },
