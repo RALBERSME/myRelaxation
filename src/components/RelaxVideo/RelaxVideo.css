@@ -1,0 +1,23 @@
+.relv-container .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+}
+.relv-video {
+  width: 95%;
+  border-radius: 4rem;
+  margin-top: -10rem;
+  z-index: 1;
+  border: 22px solid white;
+}
+@media (max-width: 1024px) {
+  .relv-video {
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .relv-video {
+    border-radius: 2rem;
+  }
+}

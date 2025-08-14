@@ -1,0 +1,116 @@
+.cur-wrapper {
+  height: 100vh;
+  margin: 10%;
+  overflow: hidden;
+  background-color: black;
+}
+
+.cur-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.curtain {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.curtain-image {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  transition: all 2s ease;
+  z-index: 2;
+}
+
+.curtain-left {
+  left: 0;
+  transform-origin: left;
+}
+
+.curtain-right {
+  right: 0;
+  transform-origin: right;
+}
+
+.curtain-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cur-text {
+  position: absolute;
+  width: 100%;
+  color: wheat;
+  font-size: 60px;
+  text-align: center;
+  transition: opacity 1s ease;
+  z-index: 3;
+  top: 20%;
+  transform: translateY(-50%);
+  font-weight: bold;
+  letter-spacing: -5px;
+  word-spacing: 5px;
+}
+
+.cur-text.cur-hidden {
+  opacity: 0;
+  color: #ffffff;
+  width: 60%;
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 2;
+  margin-left: 50px;
+}
+
+.curtain:hover .curtain-left {
+  transform: translateX(-100%);
+}
+
+.curtain:hover .curtain-right {
+  transform: translateX(100%);
+}
+
+.curtain:hover .cur-text {
+  opacity: 0;
+}
+
+.curtain:hover .cur-text.cur-hidden {
+  opacity: 1;
+}
+
+.cur-audio {
+  position: absolute;
+  bottom: 6px;
+  right: -400px;
+}
+
+@media (max-width: 1024px) {
+  .cur-wrapper {
+    height: 80vh;
+    margin: 5%;
+    margin-bottom: 15%;
+  }
+  .cur-text {
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+  }
+
+  .cur-text.cur-hidden {
+    margin-left: 20px;
+    width: 90%;
+    font-size: 2rem;
+  }
+  .cur-audio {
+    position: absolute;
+    top: -5rem;
+    right: 0px;
+  }
+}

@@ -1,0 +1,33 @@
+.f-wrapper .container {
+  margin-top: 5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+}
+.f-wrapper {
+  background-color: rgb(250, 210, 79);
+  font-size: 1.15rem;
+  font-family: "Courier New", Courier, monospace;
+  animation: changeStyle 3s ease-in-out infinite;
+}
+@keyframes changeStyle {
+  from {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: gray;
+  }
+  to {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: darkblue;
+  }
+}
+
+@media (max-width: 1024px) {
+  .f-container {
+    padding: 0 5%;
+  }
+  .f-wrapper {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: gray;
+    animation: none;
+  }
+}

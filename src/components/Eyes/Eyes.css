@@ -1,0 +1,43 @@
+.e-wrapper {
+  margin-top: 5.5%;
+  height: 90vh;
+  background: linear-gradient(to bottom, rgb(246, 234, 236), white);
+}
+.e-wrapper .container {
+  display: flex;
+  flex-direction: column;
+}
+.e-container {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.e-videos {
+  margin-top: 2%;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.e-video {
+  width: 48%;
+}
+.e-video:hover {
+  width: 150%;
+}
+
+@media (max-width: 1024px) {
+  .e-videos {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .e-video:hover {
+    width: 100%;
+  }
+}

@@ -1,0 +1,63 @@
+:root {
+  --dark-bg: #000;
+  --light-bg: #f6f7fb;
+  --primary-color: #e0762b;
+  --secondary-color: #f2b10b;
+  --third-color: #f0e91a;
+  --fourth-color: #fee590;
+  --text-color: #466102;
+  --text-secondary: #554b92;
+  --text-color-dark: #786008;
+  --text-color-light: #fcf3d4;
+  --title-color: #bf8b09;
+  --border-color: #6a55f8;
+  --border-color-dark: #27263a;
+  --border-color-light: #6a55f8;
+  --shadow: 10px 12px 48px rgba(181, 187, 203, 0.206);
+}
+
+html {
+  box-sizing: border-box;
+}
+body {
+  color: var(--text-color);
+  margin: 0 !important;
+  max-width: 100%;
+  overflow-x: hidden;
+  padding: 0 !important;
+  touch-action: pan-y, pan-x;
+  transition: all 0.4s cubic-bezier(0.57, 0.25, 0.33, 1) 0s;
+  background-color: #fffcf1;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+@media (min-width: 2100px) {
+  .container {
+    max-width: 1600px;
+  }
+}
+@media (min-width: 567px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
