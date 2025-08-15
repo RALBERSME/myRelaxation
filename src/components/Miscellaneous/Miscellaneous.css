@@ -127,3 +127,9 @@
     display: none;
   }
 }
+@media (max-width: 600px) {
+  .widthProblem {
+    display: grid;
+    grid-template-columns: 300%;
+  }
+}
