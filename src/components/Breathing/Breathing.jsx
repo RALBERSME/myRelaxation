@@ -38,7 +38,7 @@ const Breathing = () => {
               variants={desVariants}
               className="des"
             >
-              Here is how you can inhale and exhale
+              Here is how you can in/exhale
             </motion.span>
           </div>
           <div className="bre-blocks">
