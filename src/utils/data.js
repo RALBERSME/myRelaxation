@@ -198,7 +198,7 @@ export const moreIdeas1 = [
   { idea: "Cuddling pets" },
   { idea: "Gardening" },
   { idea: "Swinging on a swing" },
-  { idea: "Dreaming in a hammock" },
+  // { idea: "Dreaming in a hammock" },
 ];
 export const moreIdeas2 = [
   { idea: "Mindful eating - Enjoy food, conscious chewing reduces stress" },
@@ -215,5 +215,5 @@ export const moreIdeas2 = [
   { idea: "Making music" },
   { idea: "Singing" },
   { idea: "Playing board games" },
-  { idea: "Celebrating with friends" },
+  // { idea: "Celebrating with friends" },
 ];
