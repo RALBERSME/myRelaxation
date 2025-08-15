@@ -22,7 +22,8 @@ const Curtains = () => {
             </div>
             <div className="cur-text cur-hidden">
               <marquee>
-                Just click on dancer and music box to dance with me!
+                Just click on dancer and music box (song from White Records) to
+                dance with me!
               </marquee>
               <audio controls autoPlay className="cur-audio">
                 <source

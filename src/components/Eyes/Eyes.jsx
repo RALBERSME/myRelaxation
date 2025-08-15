@@ -16,7 +16,7 @@ const Eyes = () => {
           <h2>Simple meditation and breathing exercise.</h2>
           <h3>
             {" "}
-            Choose one of the eyes by moving the mouse on the video. There you
+            Choose one of the eyes by moving the mouse on that video. There you
             will find the buttons to enlarge the video and to set the speed. Now
             look into the eye and breathe in the rhythm of the eye movements.
           </h3>

@@ -38,7 +38,7 @@ const Muscle = () => {
               className="text"
             >
               reduces stress reactions, and puts the body and mind into a
-              restful state. Click on the links in the cards to get active.
+              restful state. Click on the links under the cards to get active.
             </motion.span>
           </div>
           <div className="musc-features">
