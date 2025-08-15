@@ -82,6 +82,7 @@
   text-align: center;
   font-size: 1rem;
 }
+
 @media (min-width: 1280px) {
   .slick-slide.slick-active.slick-current + .slick-slide .comment {
     transition: all 1000px ease-out;
@@ -107,6 +108,14 @@
   .comment {
     padding-top: 15px;
     background-color: rgb(242, 231, 171);
-    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .widthProblem {
+    display: grid;
+    grid-template-columns: 300%;
+  }
+  .c-content {
+    height: 130px;
   }
 }

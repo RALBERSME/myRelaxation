@@ -42,7 +42,7 @@ const SlickSlider = () => {
     ],
   };
   return (
-    <div>
+    <div className="widthProblem">
       <Slider {...settings}>
         {miscellaneousData.map((comment, i) => (
           <div className="comment" key={i}>
