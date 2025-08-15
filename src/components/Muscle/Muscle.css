@@ -55,13 +55,11 @@
   .musc-wrapper {
     padding-top: 1rem;
   }
-  .musc-head .tag {
+  .musc-head .tag,
+  .musc-head .text {
     color: goldenrod;
   }
-  .musc-head .title {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+
   .musc-features {
     flex-direction: column;
   }
