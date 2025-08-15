@@ -130,7 +130,7 @@
 @media (max-width: 600px) {
   .widthProblem {
     display: grid;
-    grid-template-columns: 200%;
+    grid-template-columns: 290%;
   }
   .mis-show2 {
     display: contents;
