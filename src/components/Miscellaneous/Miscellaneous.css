@@ -132,4 +132,10 @@
     display: grid;
     grid-template-columns: 300%;
   }
+  .mis-show2 {
+    display: contents;
+  }
+  .mis-show1 {
+    display: none;
+  }
 }
