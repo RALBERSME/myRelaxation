@@ -107,5 +107,6 @@
   .comment {
     padding-top: 15px;
     background-color: rgb(242, 231, 171);
+    width: 100%;
   }
 }
