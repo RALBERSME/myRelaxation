@@ -13,6 +13,7 @@ const SlickSlider = () => {
     initialSlide: 0,
     touchMove: true,
     useCSS: true,
+    variableWidth: false,
     responsive: [
       {
         breakpoint: 1024,
