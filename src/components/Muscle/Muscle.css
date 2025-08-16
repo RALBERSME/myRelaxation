@@ -82,6 +82,6 @@
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
-    padding-left: 20%;
+    padding-left: 12.5%;
   }
 }
