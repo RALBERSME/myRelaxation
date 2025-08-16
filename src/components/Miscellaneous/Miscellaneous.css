@@ -57,7 +57,6 @@
   background-color: #5479e1;
   color: white;
   font-size: 1.1rem;
-  /* border-radius: 100%; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -84,6 +83,21 @@
 }
 .mis-show2 {
   display: none;
+}
+.mis-final {
+  margin-top: 2.5rem;
+  text-align: center;
+  padding: 5rem;
+  background-color: rgb(248, 196, 151);
+}
+.mis-videos {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+.mis-iframe {
+  width: 500;
+  height: 350;
 }
 @media (min-width: 1280px) {
   .slick-slide.slick-active.slick-current + .slick-slide .comment {
@@ -112,6 +126,20 @@
   .comment {
     padding-top: 15px;
     background-color: rgb(242, 231, 171);
+  }
+  .mis-final {
+    margin-top: 2.5rem;
+    padding-top: 2rem;
+  }
+  .mis-videos {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .mis-iframe {
+    width: 280;
+    height: 150;
   }
 }
 @media (max-width: 768px) {

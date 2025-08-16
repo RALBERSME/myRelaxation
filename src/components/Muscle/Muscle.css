@@ -41,15 +41,15 @@
 .musc-links {
   display: flex;
   justify-content: space-between;
+  gap: 20px;
 }
-.musc-link {
-  color: white;
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
+.musc-links h2 {
+  padding-right: 10px;
 }
-.musc-link:hover {
-  text-decoration: overline underline;
-  color: gray;
+
+.musc-iframe {
+  width: 250;
+  height: 150;
 }
 @media (max-width: 990px) {
   .musc-wrapper {
@@ -66,17 +66,11 @@
   .musc-links {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 4%;
     text-align: center;
+    gap: 25px;
   }
-  .musc-link {
-    color: gray;
-    font-size: 1rem;
-    margin-bottom: 2rem;
-  }
-  .musc-link:hover {
-    text-decoration: overline underline;
-    color: rgb(137, 117, 5);
+  .musc-links h2 {
+    margin-left: -25%;
   }
 }
 @media (max-width: 590px) {
@@ -87,7 +81,7 @@
   .musc-links {
     display: grid;
     grid-template-columns: 1fr;
-    padding: 4%;
     text-align: center;
+    padding-left: 20%;
   }
 }

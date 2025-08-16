@@ -63,34 +63,56 @@ const Muscle = () => {
             ))}{" "}
           </div>{" "}
           <div className="musc-links">
-            <a
-              href="https://www.youtube.com/watch?v=ihO02wUzgkc"
-              target="_blank"
-              className="musc-link"
-            >
-              click here to practice Progressive Muscle Relaxation
-            </a>{" "}
-            <a
-              href="https://www.youtube.com/watch?v=t3uK039WdaM"
-              target="_blank"
-              className="musc-link"
-            >
-              click here for Jacobson Relaxing
-            </a>{" "}
-            <a
-              href="https://www.youtube.com/watch?v=CyKhfUdOEgs"
-              target="_blank"
-              className="musc-link"
-            >
-              click here for Mindfulness Meditation Body Scan
-            </a>
-            <a
-              href="https://www.youtube.com/watch?v=m3-O7gPsQK0"
-              target="_blank"
-              className="musc-link"
-            >
-              click here for A JAPANESE METHOD TO RELAX IN 5 MINUTES
-            </a>
+            <h2>Time for practice:</h2>
+
+            <motion.iframe
+              variants={containerVariants(0.3)}
+              initial="offscreen"
+              whileInView="onscreen"
+              className="musc-iframe"
+              src="https://www.youtube.com/embed/ihO02wUzgkc"
+              title="Progressive Muscle Relaxation Training"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></motion.iframe>
+            <motion.iframe
+              variants={containerVariants(0.3)}
+              initial="offscreen"
+              whileInView="onscreen"
+              className="musc-iframe"
+              src="https://www.youtube.com/embed/t3uK039WdaM"
+              title="Jacobson Relaxing - English version"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></motion.iframe>
+            <motion.iframe
+              variants={containerVariants(0.3)}
+              initial="offscreen"
+              whileInView="onscreen"
+              className="musc-iframe"
+              src="https://www.youtube.com/embed/CyKhfUdOEgs"
+              title="Mindfulness Meditation   Body Scan"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></motion.iframe>
+            <motion.iframe
+              variants={containerVariants(0.3)}
+              initial="offscreen"
+              whileInView="onscreen"
+              className="musc-iframe"
+              src="https://www.youtube.com/embed/m3-O7gPsQK0"
+              title="A JAPANESE METHOD TO RELAX IN 5 MINUTES"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></motion.iframe>
           </div>
         </div>
       </div>
