@@ -133,45 +133,71 @@ const Breathing = () => {
           >
             <div>
               <span className="sec-title">Get active</span>
-              <span className="des">and start an exercise:</span>
+              <span className="des">
+                and start an exercise <br />
+                you can change
+                <br />
+                the video size <br />
+                in the player:
+              </span>
               <br />
             </div>
             <div>
               <span className="text">
-                <a
-                  className="bre-a"
-                  href="https://www.youtube.com/watch?v=LiUnFJ8P4gM"
-                  target="_blank"
-                >
-                  4-7-8 Calm Breathing Exercise | 10 Minutes
-                </a>
+                <motion.iframe
+                  initial={"offscreen"}
+                  whileInView={"onscreen"}
+                  variants={containerVariants(0.3)}
+                  className="bre-iframe"
+                  src="https://www.youtube.com/embed/LiUnFJ8P4gM"
+                  title="4-7-8 Calm Breathing Exercise | 10 Minutes of Deep Relaxation | Anxiety Relief | Pranayama Exercise"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                ></motion.iframe>
               </span>
               <span className="text">
-                <a
-                  className="bre-a"
-                  href="https://www.youtube.com/watch?v=FJJazKtH_9I"
-                  target="_blank"
-                >
-                  Box Breathing Exercise | TAKE A DEEP BREATH
-                </a>
+                <motion.iframe
+                  initial={"offscreen"}
+                  whileInView={"onscreen"}
+                  variants={containerVariants(0.3)}
+                  className="bre-iframe"
+                  src="https://www.youtube.com/embed/FJJazKtH_9I"
+                  title="Box Breathing Exercise | TAKE A DEEP BREATH | Pranayama Series"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                ></motion.iframe>
               </span>
               <span className="text">
-                <a
-                  className="bre-a"
-                  href="https://www.youtube.com/watch?v=395ZloN4Rr8"
-                  target="_blank"
-                >
-                  3 most effective Pranayamas – deep breathing exercises
-                </a>
+                <motion.iframe
+                  initial={"offscreen"}
+                  whileInView={"onscreen"}
+                  variants={containerVariants(0.3)}
+                  className="bre-iframe"
+                  src="https://www.youtube.com/embed/395ZloN4Rr8"
+                  title="3 effektivste Pranayamas – Übungen zur tiefen Atmung"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                ></motion.iframe>
               </span>
               <span className="text">
-                <a
-                  className="bre-a"
-                  href="https://www.youtube.com/watch?v=mVchZ8D15Ec"
-                  target="_blank"
-                >
-                  Complete Breathwork/Pranayama session - Michaël Bijker
-                </a>
+                <motion.iframe
+                  initial={"offscreen"}
+                  whileInView={"onscreen"}
+                  variants={containerVariants(0.3)}
+                  className="bre-iframe"
+                  src="https://www.youtube.com/embed/mVchZ8D15Ec"
+                  title="Complete Breathwork/Pranayama session with Michaël Bijker - Yogalap"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                ></motion.iframe>
               </span>
             </div>
           </motion.div>{" "}

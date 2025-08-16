@@ -39,13 +39,18 @@
   padding: 10px;
   border-radius: 50%;
 }
-.bre-a {
+/* .bre-a {
   text-decoration: none;
   color: green;
 }
 .bre-a:hover {
   color: rgb(123, 89, 12);
   font-weight: bold;
+} */
+
+.bre-iframe {
+  width: 250;
+  height: 200;
 }
 .block-features {
   margin-top: 1rem;
