@@ -1,3 +1,9 @@
+.h-start {
+  background-color: gray;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .h-wrapper {
   background: url("/daisy.jpg");
   background-size: cover;

@@ -33,40 +33,42 @@ const Hero = () => {
     },
   });
   return (
-    <div className="h-wrapper">
-      <div className="container">
-        <div className="h-container">
-          <div className="h-left">
-            <div className="image-row">
-              {HeroData.slice(0, 3).map((person, i) => (
-                <div className="h-flower" key={i}>
-                  <motion.div
-                    initial={"initial"}
-                    animate={"animate"}
-                    variants={variants(person.delay)}
-                    style={{ background: person.bg }}
-                    className="h-flower-bg"
-                  >
-                    <motion.img
+    <div className="h-start">
+      <div className="h-wrapper">
+        <div className="container">
+          <div className="h-container">
+            <div className="h-left">
+              <div className="image-row">
+                {HeroData.slice(0, 3).map((person, i) => (
+                  <div className="h-flower" key={i}>
+                    <motion.div
                       initial={"initial"}
                       animate={"animate"}
-                      variants={imgVariants()}
-                      src={person.src}
-                      alt={person.src}
-                    />
-                  </motion.div>
-                </div>
-              ))}
-            </div>
-
-            <div className="h-right">
-              <div className="h-title">
-                <span>myRelaxation</span>
+                      variants={variants(person.delay)}
+                      style={{ background: person.bg }}
+                      className="h-flower-bg"
+                    >
+                      <motion.img
+                        initial={"initial"}
+                        animate={"animate"}
+                        variants={imgVariants()}
+                        src={person.src}
+                        alt={person.src}
+                      />
+                    </motion.div>
+                  </div>
+                ))}
               </div>
-              <div className="h-des">
-                50 ways to reduce stress and relax deeply
-                <br />
-                <small>scroll down</small>
+
+              <div className="h-right">
+                <div className="h-title">
+                  <span>myRelaxation</span>
+                </div>
+                <div className="h-des">
+                  50 ways to reduce stress and relax deeply
+                  <br />
+                  <small>scroll down</small>
+                </div>
               </div>
             </div>
           </div>
