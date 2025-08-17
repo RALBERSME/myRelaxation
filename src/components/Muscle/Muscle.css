@@ -88,4 +88,7 @@
     text-align: center;
     padding-left: 12.5%;
   }
+  .musc-lgOnly {
+    display: none;
+  }
 }
