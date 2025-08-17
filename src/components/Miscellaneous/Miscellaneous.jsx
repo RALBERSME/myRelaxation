@@ -65,6 +65,60 @@ const Miscellaneous = () => {
                 whileInView={"onscreen"}
                 variants={containerVariants(0.3)}
                 className="mis-iframe"
+                src="https://www.youtube.com/embed/ZntU_1TL8sc"
+                title="Silva Mind Methode - deutsche Kurzerklärung"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></motion.iframe>{" "}
+              <motion.iframe
+                initial={"offscreen"}
+                whileInView={"onscreen"}
+                variants={containerVariants(0.3)}
+                className="mis-iframe"
+                src="https://www.youtube.com/embed/h_4GDXWBPCk"
+                title="20-minütige Silva-Zentrierungsübung mit Vishen Lakhiani"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></motion.iframe>
+            </div>
+            <br />
+            <div className="mis-videos">
+              <motion.iframe
+                initial={"offscreen"}
+                whileInView={"onscreen"}
+                variants={containerVariants(0.3)}
+                className="mis-iframe"
+                src="https://www.youtube.com/embed/P5sjAlnUMJs?list=PLZg-VN0x6BOw4vE_m4loT4Qs-VFPP2KHm"
+                title="REDUCING STRESS AND PHYSICAL ILLNESS, The Book of Letting Go David R. Hawkins"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></motion.iframe>{" "}
+              <motion.iframe
+                initial={"offscreen"}
+                whileInView={"onscreen"}
+                variants={containerVariants(0.3)}
+                className="mis-iframe"
+                src="https://www.youtube.com/embed/-kb9SdMQmwA"
+                title="Loslassen Technik David R. Hawkins Meditation | Übung 1"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></motion.iframe>
+            </div>
+            <br />
+            <div className="mis-videos">
+              <motion.iframe
+                initial={"offscreen"}
+                whileInView={"onscreen"}
+                variants={containerVariants(0.3)}
+                className="mis-iframe"
                 src="https://www.youtube.com/embed/ajo3xkhTbfo"
                 title="Dr. Gabor Maté on The Connection Between Stress and Disease"
                 frameBorder="0"
