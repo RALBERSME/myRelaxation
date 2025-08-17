@@ -139,6 +139,72 @@ const Miscellaneous = () => {
                 allowFullScreen
               ></motion.iframe>
             </div>
+            <br />
+            <div className="mis-videos">
+              <motion.div
+                initial={"offscreen"}
+                whileInView={"onscreen"}
+                variants={containerVariants(0.3)}
+                className="mis-iframe"
+              >
+                <h2>Book tip</h2>
+                <h3>
+                  When the Body Says No <br /> The Cost of Hidden Stress <br />
+                  by Gabor Maté{" "}
+                </h3>
+                <p className="mis-book">
+                  With compassion, warmth and empathy, Dr Gabor Maté draws on
+                  deep scientific research and his acclaimed clinical work to
+                  provide the answers to critical questions about the mind-body
+                  link - and illuminates the role that stress and our emotional
+                  makeup play in an array of common diseases. When the Body Says
+                  No: - Explores the role of the mind-body link in conditions
+                  and diseases such as arthritis, cancer, diabetes, heart
+                  disease, irritable bowel syndrome and multiple sclerosis. -
+                  Shares dozens of enlightening case studies and personal and
+                  moving stories, including those of people such as Lou Gehrig
+                  (ALS), Betty Ford (breast cancer), Ronald Reagan
+                  (Alzheimer's), Gilda Radner (ovarian cancer) and Lance
+                  Armstrong (testicular cancer) - Reveals 'The Seven A's of
+                  Healing': principles in healing and the prevention of illness
+                  from hidden stress.
+                  <br /> <br />{" "}
+                </p>
+                <p>ISBN:9781785042225</p>
+              </motion.div>{" "}
+              <motion.div
+                initial={"offscreen"}
+                whileInView={"onscreen"}
+                variants={containerVariants(0.3)}
+                className="mis-iframe"
+              >
+                <h2>Buchtipp</h2>
+                <h3>
+                  Wenn der Körper nein sagt <br /> Wie verborgener Stress krank
+                  macht <br />
+                  von Gabor Maté{" "}
+                </h3>
+                <p className="mis-book">
+                  Gibt es einen Zusammenhang zwischen der Fähigkeit, Gefühle
+                  auszudrücken, und Alzheimer? Gibt es so etwas wie eine
+                  Krebspersönlichkeit? Das Buch stützt sich auf
+                  wissenschaftliche Forschungsergebnisse. Es gibt Antworten auf
+                  diese und andere wichtige Fragen zur Bedeutung der
+                  Leib-Seele-Einheit in Bezug auf Krankheit und Gesundheit sowie
+                  auf die Rolle, die Stress, Stressbewältigung und die
+                  individuelle emotionale Verfassung bei vielen häufig
+                  vorkommenden Krankheiten spielen (wie Arthritis, Krebs,
+                  Diabetes, Herzerkrankungen, Alzheimer, Reizdarmsyndrom und
+                  Multipler Sklerose). Mit zahlreichen Fallstudien und
+                  Geschichten von bekannten Persönlichkeiten wie Betty Ford
+                  (Brustkrebs), Ronald Reagan (Alzheimer) und Lance Armstrong
+                  (Hodenkrebs). Mit 7 Prinzipien zu Prävention und Heilung von
+                  Krankheitsbildern.
+                  <br /> <br />
+                </p>
+                <p>ISBN:9783962571740</p>{" "}
+              </motion.div>
+            </div>
           </div>
         </div>
       </div>

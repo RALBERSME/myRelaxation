@@ -141,6 +141,9 @@
     width: 280;
     height: 150;
   }
+  .mis-book {
+    display: none;
+  }
 }
 @media (max-width: 768px) {
   .widthProblem {
