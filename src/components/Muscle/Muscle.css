@@ -42,7 +42,7 @@
   display: flex;
   justify-content: space-between;
   gap: 20px;
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
 }
 .musc-links h2 {
   padding-right: 10px;

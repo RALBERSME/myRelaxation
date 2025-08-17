@@ -101,11 +101,14 @@ const Muscle = () => {
               referrerPolicy="strict-origin-when-cross-origin"
               allowFullScreen
             ></motion.iframe>
+          </div>
+          <br />
+          <div className="musc-links">
             <motion.iframe
               variants={containerVariants(0.3)}
               initial="offscreen"
               whileInView="onscreen"
-              className="musc-iframe"
+              className="musc-iframe musc-lgOnly"
               src="https://www.youtube.com/embed/m3-O7gPsQK0"
               title="A JAPANESE METHOD TO RELAX IN 5 MINUTES"
               frameBorder="0"
@@ -117,7 +120,7 @@ const Muscle = () => {
               initial={"offscreen"}
               whileInView={"onscreen"}
               variants={containerVariants(0.3)}
-              className="musc-iframe"
+              className="musc-iframe musc-lgOnly"
               src="https://www.youtube.com/embed/rEHEkLXuCIo"
               title="Guided Hypnosis Meditation for Deep Relaxation with Joseph Drumheller"
               frameBorder="0"
@@ -129,7 +132,7 @@ const Muscle = () => {
               initial={"offscreen"}
               whileInView={"onscreen"}
               variants={containerVariants(0.3)}
-              className="musc-iframe"
+              className="musc-iframe musc-lgOnly"
               src="https://www.youtube.com/embed/pAv9E6bYV0k?list=PLE8s07Mvg50v7VbgHBU2J4T8ppB4ra2dK"
               title="Paul Mckenna Official | Deep Relaxation Technique"
               frameBorder="0"
@@ -137,11 +140,14 @@ const Muscle = () => {
               referrerPolicy="strict-origin-when-cross-origin"
               allowFullScreen
             ></motion.iframe>
+          </div>
+          <br />
+          <div className="musc-links">
             <motion.iframe
               initial={"offscreen"}
               whileInView={"onscreen"}
               variants={containerVariants(0.3)}
-              className="musc-iframe"
+              className="musc-iframe musc-lgOnly"
               src="https://www.youtube.com/embed/CJmL99eNzPM"
               title="Yoga zum Stressabbau: 20-minütige Übung zum Zurücksetzen"
               frameBorder="0"
@@ -153,7 +159,7 @@ const Muscle = () => {
               initial={"offscreen"}
               whileInView={"onscreen"}
               variants={containerVariants(0.3)}
-              className="musc-iframe"
+              className="musc-iframe musc-lgOnly"
               src="https://www.youtube.com/embed/75PUjUsGsQQ"
               title="A meditation expert shows her stress relief &#39;tapping&#39; exercise which you can do in 2 minutes"
               frameBorder="0"
@@ -165,7 +171,7 @@ const Muscle = () => {
               initial={"offscreen"}
               whileInView={"onscreen"}
               variants={containerVariants(0.3)}
-              className="musc-iframe"
+              className="musc-iframe musc-lgOnly"
               src="https://www.youtube.com/embed/_QCtzOb8_XA"
               title="Deep Relaxation Hypnosis for Stress Relief, Anxiety Relief, and Instant Calm (Science-Based)"
               frameBorder="0"
